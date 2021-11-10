@@ -1,0 +1,147 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[Dialog]
+[Character]
+[PlayMusic(intro="$escape_intro", key="$escape_loop", volume=0.8, crossfade=1.5, delay=0.5)]
+[Background(image="bg_cher_1",x=0, y=20, xScale=1.1, yScale=1.1, fadetime=1)]
+[Dialog]
+[Delay(time=1)]
+[Character(name="char_130_doberm_ex")]
+[name="Dobermann"] Không thể tin đ…
+[name="Dobermann"] Chuyện… chuyện gì đang diễn ra thế này…?
+[Blocker(a=1, r=0,g=0, b=0, fadetime=0.6, block=true)]
+[Character(fadetime=0)]
+[Image(image="avg_2_2",x=0, y=0, xScale=1, yScale=1, fadetime=0)]
+[Blocker(a=0, fadetime=0.6, block=false)]
+[ImageTween(xFrom=0, yFrom=0, xTo=0, yTo=-20, xScaleFrom=1, yScaleFrom=1, xScaleTo=1.1, yScaleTo=1.1, duration=15, block=false)]
+[name="Lính Reunion"] Lục soát từng nhà một! Xới tung mọi căn phòng cho tôi!
+[name="Người mẹ"] Thả tôi ra…! Không! Đừng mà…
+[name="Lính Reunion"] Mày muốn chống đối à? Quá trễ rồi, lũ Cherno bẩn thỉu! 
+[name="Người cha"] Cứ chạy đi! Kệ anh… Cứu… cứu con bé…
+[name="Con gái"] Mẹ... Mẹ ơi...!
+[name="Quân cảnh Ursus"] Quên tiệt cư dân đi! Tập trung phòng thủ đã! Đám đeo mặt nạ đông quá!
+[name="Lính Reunion"] Đừng cho lũ cớm cơ hội nghỉ ngơi! Tiếp tục tấn công!
+[name="Quân cảnh Ursus"] Quân tiếp viện đâu hết rồi?! Phòng tuyến sẽ bị áp đảo mất…
+[name="Lính Reunion"] Xông lên, xông lên!!
+[Blocker(a=1, r=0,g=0, b=0, fadetime=0.6, block=true)]
+[Image]
+[Blocker(a=0, fadetime=1, block=true)]
+[Dialog]
+[Character(name="char_002_amiya_1#5")]
+[name="Amiya"] Chuyện gì đang xảy ra…?! Tại sao… tại sao Reunion lại làm chuyện này…?
+[Character(name="char_130_doberm_ex")]
+[name="Dobermann"] Suốt bao năm trời, cuối cùng thì lũ sói đội lốt người cũng chịu nhe nanh vuốt.
+[Character(name="char_016_medic")]
+[name="Medic"] Những Người Nhiễm Bệnh… họ, họ đang tấn công quân đội Ursus kìa!
+[Character(name="char_013_riop")]
+[name="Guard"] Tại sao chứ?! Thách thức chính quyền Ursus thế này có khác gì tự sát!
+[Character(name="char_130_doberm_ex")]
+[name="Dobermann"] Không, dựa vào sự quyết liệt của cuộc công kích này thì đây hẳn là một chiến dịch có chuẩn bị từ trước.
+[name="Dobermann"] Nơi chúng ta vừa cứu Doctor đáng lẽ phải là một cơ sở tối mật… cuối cùng chúng thế nào vẫn có thể thâm nhập vào trong đó được.
+[name="Dobermann"] Có khả năng là cuộc tấn công của Reunion giờ đã lan khắp toàn bộ thành phố Chernobog rồi.
+[Character(name="char_013_riop")]
+[name="Guard"] Không… sao, sao lại thế được.
+[Character(name="char_002_amiya_1#7")]
+[name="Amiya"] Shhhh!
+[StopMusic(fadetime=0.8)]
+[Character]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=0.6, block=true)]
+[Dialog]
+[Blocker(a=0, fadetime=0.6, block=true)]
+[name="Lính Reunion A"] Đã tìm thấy đứa Cherno trốn chạy nào chưa?
+[name="Lính Reunion B"] Vẫn đang truy lùng chúng đây!
+[name="Lính Reunion A"] Tốt, đừng để dù chỉ một đứa trốn thoát được!
+[name="Lính Reunion A"] Lũ quái thú máu lạnh đó… Tôi sẽ bắt chúng phải trả giá cho những gì chúng làm với gia đình của tôi!
+[Character]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=0.6, block=true)]
+[Dialog]
+[Blocker(a=0, fadetime=0.6, block=true)]
+[Character(name="char_016_medic")]
+[name="Medic"]  (*ho*)
+[Dialog]
+[Character]
+[name="Lính Reunion A"] Gì đấy?
+[name="Lính Reunion B"] Kia kìa!
+[PlayMusic(intro="$calamity_intro", key="$calamity_loop", volume=1, crossfade=1.5)]
+[Character(name="char_016_medic")]
+[name="Medic"] (Ưmm.)
+[name="Medic"] (Ch-chúng ta bị phát hiện rồi!)
+[Character(name="char_130_doberm_ex")]
+[name="Dobermann"]  (Shush!)
+[Character(name="char_016_medic")]
+[name="Medic"]  (Mmf...!)
+[Character]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=0.6, block=true)]
+[Dialog]
+[Blocker(a=0, fadetime=0.6, block=true)]
+[Dialog]
+[Delay(time=1)]
+[Character(name="char_1002_nsabr_2")]
+[Delay(time=1.5)]
+[Character]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=0.6, block=true)]
+[Background]
+[Blocker(a=0, fadetime=0.6, block=true)]
+[name="Người mẹ"]  ...Ugh...
+[Blocker(a=1, r=0,g=0, b=0, fadetime=0.6, block=true)]
+[Background(image="bg_cher_1",x=0, y=20, xScale=1.1, yScale=1.1, fadetime=1)]
+[Blocker(a=0, fadetime=0.6, block=true)]
+[name="Lính Reunion A"] Đây rồi! Tôi tìm thấy rồi!
+[name="Người mẹ"]  …ĐỪNG!!!!
+[name="Người mẹ"] Aaaa!! Không, đừng mà… 
+[name="Lính Reunion B"] ...!
+[name="Lính Reunion B"] Trốn vào trong hẻm sao?
+[name="Lính Reunion B"] Ra đây.
+[name="Người mẹ"] Aaaaahh...!
+[name="Lính Reunion B"] Tưởng là bọn tao sẽ không tìm ra chỗ chúng mày ẩn nấp sao…?
+[name="Người mẹ"] Tôi… tôi xin lỗi mà! Tôi xin lỗi!! Làm ơn, ít nhất xin hãy tha mạng cho con gái tôi!
+[name="Lính Reunion B"]  ...
+[Blocker(a=1, r=0,g=0, b=0, fadetime=0.6, block=true)]
+[Dialog]
+[Character]
+[Blocker(a=0, fadetime=0.6, block=true)]
+[Character(name="char_002_amiya_1#7")]
+[name="Amiya"] … Chúng ta cần phải can thiệp ngay.
+[Character(name="char_130_doberm_ex")]
+[name="Dobermann"] Amiya...
+[Character(name="char_002_amiya_1#7",name2="char_130_doberm_ex",focus=1)]
+[name="Amiya"] Thưa cô Dobermann, em ý thức được rủi ro ở đây.
+[name="Amiya"] Chỉ là… chẳng có thời gian đâu mà ngồi chờ đám Reunion tự giải tán đâu ạ.
+[name="Amiya"] Thêm nữa, ai mà biết được tình hình này sẽ còn kéo dài đến bao giờ…
+[name="Amiya"] Suy ra, chiến lược hiệu quả nhất là tiêu diệt kẻ thù để mở đường di chuyển. Không phải vậy sao?
+[Character(name="char_002_amiya_1#7",name2="char_130_doberm_ex",focus=2)]
+[name="Dobermann"] ...
+[name="Dobermann"] Thôi được, cô xin tuân lệnh. (TL: Cứ nghĩ như giọng nhân viên với sếp.)
+[Character(name="char_130_doberm_ex")]
+[name="Dobermann"] Toàn đội. Nghe đây.
+[name="Dobermann"] Chúng ta có yếu tố bất ngờ - đám lính lác Reunion kia vẫn chưa nhận ra chúng ta có mặt ở đây.
+[name="Dobermann"] Nghe chưa, đánh dứt khoát! Tiêu diệt chúng, nhanh và gọn.
+[name="Dobermann"] Dr. {@nickname}, tập hợp đội hình thôi. Tới lúc để ngài chứng minh bản thân mình rồi.
+[name="Dobermann"] Chúng ta không có thời gian để cân nhắc lại nữa đâu.
+[Decision(options="Cô phải nói với tôi sớm hơn mới phải.;...;Chuyện vặt, tôi lo được vụ này", values="1;2;3")]
+[Predicate(references="1;2;3")]
+[Character(name="char_130_doberm_ex")]
+[name="Dobermann"] Hah.
+[name="Dobermann"] Amiya, cô trông cậy ở em.
+[Character(name="char_002_amiya_1#7")]
+[name="Amiya"] RÕ.
+[Blocker(a=1, initr=2, r=0, g=0, b=0, fadetime=0.2, block=true)]
+[Character(fadetime=0)]
+[Background(fadetime=0)]
+[Image(image="avg_1_3",x=0, y=-20, xScale=1.1, yScale=1.1, fadetime=1)]
+[ImageTween(xFrom=0, yFrom=-20, xTo=0, yTo=0, xScaleFrom=1.1, yScaleFrom=1.1, xScaleTo=1, yScaleTo=1, duration=4, block=false)]
+[Blocker(a=0, fadetime=0.5, block=true)]
+[Delay(time=0.6)]
+[name="Amiya"] “Im lặng ta nhắm mắt, nếu có thể tránh phải đổ máu--   ("Silent we shall be, should conflict be avoidable--)
+[name="Amiya"] --nhưng chiến đấu cho đến cùng, nếu tất yếu phải làm vậy!”  (--but fight tooth and nail, should it be necessary!")
+[name="Amiya"] Lời răn của Rhodes Island… trước sau vẫn như một!
+[Delay(time=0.6)]
+[Dialog]
+[Image(image="avg_1_3",x=0, y=0, xScale=1, yScale=1, fadetime=1)]
+[PlaySound(key="$flashback", volume=0.7)]
+[ImageTween(xFrom=0, yFrom=0, xTo=0, yTo=-700, xScaleFrom=1, yScaleFrom=1, xScaleTo=8, yScaleTo=8, duration=1.6, block=false)]
+[PlaySound(key="$flashback", volume=0.7, Delay=0.3)]
+[PlaySound(key="$flashback", volume=0.7, Delay=0.7)]
+[Delay(time=0.2)]
+[Blocker(a=1,r=255, g=255, b=255, fadetime=0.3, block=true)]
+[Image]
+[Blocker(block=true, fadetime=0.5)]
